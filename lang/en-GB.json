@@ -1,0 +1,342 @@
+{
+  "$package": {
+    "flag": ":flag_gb:",
+    "name": "English"
+  },
+  "bal": {
+    "daily": "Daily Reward",
+    "none": "None",
+    "system": "System",
+    "+": "``{coin}`` **|** ``{user}`` added by**!** *(Reason: {reason})*",
+    "-": "``{coin}`` **|** ``{user}`` removed by**!** *(Reason: {reason})*",
+    "bulunuyor": ":coin: You have **{amount}** coins in your account.",
+    "geçmiş": "> <:lpi:844336401389715516> Account History:",
+    "geçmişyok": "> :x: No history of your account was found.",
+    "promocode": "Promotional Code",
+    "coinflip": "Heads Or Tails",
+    "added": "Added Command"
+  },
+  "noPerm": "> :x: **|**  You must have ``{y} to use the ``{x}`` command**!**",
+  "commandDisabled": "> :x: **|** The command ``{x}`` has been disabled by the developers**!**",
+  "yardim": {
+    "title": "Light Partner - Help",
+    "footer": "Page {currentPage}/{maxPage}",
+    "delete": ":x: **|** This message will clear after **5 seconds!**",
+    "language": "> __Language__ **»** :flag_gb: `English`",
+    "prefix": "> __Prefix__ **»** ``{prefix}``",
+    "loading": ":gear: **|** Loading emojis**,** please wait**...**",
+    "noReq": "Anyone can use it.",
+    "ileri": "Next",
+    "geri": "Previous",
+    "sil": "💥ᅠDeleteᅠ💥",
+    "siliniyor": "Deleting"
+  },
+  "istatistik": {
+    "title": "Light Partner - Statistics",
+    "dev": "Developer Team",
+    "totalPartner": "Total Partnership",
+    "generalDatas": "General Datas",
+    "pingDatas": "Ping Datas",
+    "softwareDatas": "Software Information",
+    "uptime": "Uptime Time"
+  },
+  "bot": {
+    "header_error": "❌ There is something wrong ...",
+    "header_success": "✅ Nice!",
+    "header_quest": "❔ Are you sure?",
+    "karaliste": "You can't use a command because you're blacklisted.",
+    "bakim": "Maintenance mode is turned on by bot developers. Commands cannot be used while maintenance mode is on.",
+    "days": "day(s)",
+    "seconds": "second(s)",
+    "min": "minute(s)",
+    "hour": "hour(s)",
+    "links": "Links;",
+    "davetMesaj": "> :wave: Hi, **{author}** I'm glad you used this command, don't forget to invite me, I'm wondering about the server :)",
+  "perm": "Perm",
+  "perms": "(s)",
+  "website": "Website",
+  "invite": "Invite",
+  "support": "Support Server",
+    "unlimited": "Unlimited",
+    "cooldown": "You have wait **{sure}** to use this command.\n`As soon as this message is deleted, you can use the command.`",
+    "aylar": {
+      "ocak": "January",
+      "subat": "February",
+      "mart": "March",
+      "nisan": "April",
+      "mayis": "May",
+      "haziran": "June",
+      "temmuz": "July",
+      "agustos": "Augst",
+      "eylül": "September",
+      "ekim": "October",
+      "kasim": "November",
+      "aralik": "December"
+    }
+  },
+  "ayarlar": {
+    "args": {
+      "dil": "language",
+      "prefix": "prefix"
+    },
+    "language": {
+      "selectLang": "Please select a language.",
+      "activeLangs": "Available Languages",
+      "success": "The server language was successfully changed to {language}.",
+      "invalidLang": "Please enter a valid language."
+    },
+    "hataFooter": "Using Language: {language}",
+    "sifirla": "Reset",
+    "prefixgir": "Please specify a prefix.",
+    "prefixerr": "Server prefixes can be 5 to 1 characters long.",
+    "prefixayarlaonce": "You must first set a prefix.",
+    "prefixdegisti": "The prefix has been successfully changed.",
+    "prefixsifirlandi": "The prefix has been reset successfully.",
+    "argss": "> Where argument? \n **Arguments;** \n `language`, `prefix`"
+  },
+  "partner": {
+    "url": {
+      "urlbelirt": "You must specify a special invite code.\n`(Length; maximum: 32, minimum: 3) `",
+      "quest": "Are you sure you want to buy the **60** coin  `{url}` invitation code? `(yes/no)`\n**:exclamation: | Your old custom url code will be canceled and your new url code will be activated.**",
+      "maxerr": "You can get an invitation code of up to 32 characters.",
+      "minerr": "You can get an invitation code of at least 3 characters.",
+      "aldin": ":white_check_mark: You have successfully purchased the money for the `{url}` invite****.\n:timer: Your invite group will expire after **{time}**.\n:globe_with_meridians: URL; https://ligthbot.me/i/{url}",
+      "mevcut": "The **{url}** invitation code you are trying to get is being used by another server.",
+      "yetersizBakiye": "You do not have enough coins in your account.",
+      "invalid": "Custom URL can only contain english letters!"
+    },
+    "info": {
+      "notFound": "Not set.",
+      "staff": "Staff",
+      "log": "Log",
+      "channel": "Channel",
+      "text": "Article",
+      "status": "Status",
+      "active": "Active",
+      "deactive": "Closed",
+      "url": "Invite code",
+      "urlSüre": "Invite code time"
+    },
+    "args": {
+      "authorizationRole": "staff",
+      "set": "set",
+      "status": "status",
+      "info": "information",
+      "close": "close",
+      "open": "open",
+      "channel": "channel",
+      "reset": "reset",
+      "postPartner": "send",
+      "partnerLimit": "limit"
+    },
+    "limited": "Partner letter can be minimum 1, maximum 1950 characters!",
+    "invalidArgs[1]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `staff` » You set up the role of **authorized** to accept/reject partner requests.\n> • `text` » You'll arrange the partnership letter.\n> • `status` » Enables / disables your partner requests.\n> • `reset` » You delete your partner data.\n> • `channel` » You set the partner channel and partner log channels.\n> • `send` » You send a partnership request by entering the code of the server you want.\n> • `url` » You will get custom url for your server.\n> • `limit` » It is the user limit of the server that will send the affiliate request.",
+    "invalidArgs[2]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `set` » User role to approve affiliate requests.\n> • `reset` » Resets the co-principal role you set. ",
+    "invalidArgs[3]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `set` » You set your partner article.\n> • `reset` » You reset your partner article.",
+    "invalidArgs[4]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `open` » You open the partner status.\n> • `close` » You close the partner status.",
+    "invalidArgs[5]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `log` » When making a partner, you set the channel where the log will drop.\n> • `partner` » It is the channel to be partnered.",
+    "invalidArgs[6]": "> You haven't entered a invite code, this command cannot be used without entering a invite code.\n**Example Usage;** » `{prefix}partner send <invite_code>`",
+    "invalidArgs[7]": "> You did not enter an argument, this command cannot be used without entering an argument.\n\n> **• Arguments;**\n> • `open [limit]` » You open your partner limit.\n> • `close` » You close your partner limit.",
+    "tagRole": "> This command cannot be performed without role tagging. How about a role tag?",
+    "partnerurlyanlis": "> A server for the partner code you entered could not be found. Try again or check the code.",
+    "partnerGönderildi": "> The Partner request was sent successfully. Please wait until an official checks.",
+    "partnerGonderilmis": "> You already have an active partner request on this server",
+    "kanaliKapali": "I can't write a message to the partner channel set up on the server where you are requesting a Partner. So I canceled the procedure.",
+    "kanalKapali": "I can't send a message to the partner channel set up on this server. So I canceled the procedure.",
+    "partneroldu": "A partnership was **established** with the server named `{name}`, which has `{memberCount}` members. \n`Approving Authority: {yetkili}`",
+    "partnerolmadi": "Partnership **could not be established** with the server named `{name}`, which has `{memberCount}` members. \n`Rejecting Authority: {yetkili}`",
+    "partnerMesaj": "The `{sunucuAdi}` server wants to be a partner with you.\n\n> » Invite Code: `{inviteCode}`\n> » Server Owner: `{sahip}`\n> » Authorized: `{yetkili}`\n> » Member Count: `{memberCount}`\n> » Invite URL: [lightpartner.xyz/i/{inviteCode}](https://lightpartner.xyz/i/{inviteCode})\n> » Server Creation Date: `{opendate}`\n> » Total Partnership: `{partnerCount}`",
+    "staffRoleSaved": "The partner manager role has been set up successfully.",
+    "staffRoleError[1]": ":x: Responsible role is already deactivated, please try again after setting roles.",
+    "staffRoleQuest[1]": "Are you sure you want to reset the responsible role? `(yes/no)`",
+    "staffRoleReseted": "The reset request has been performed successfully.",
+    "textChanged": "You have successfully set up the partner text.\n\nPreview: ```{text}```",
+    "writeText": ":x: To execute this command, you must enter a text.",
+    "textDeActive": ":x: It seems that the Affiliate post is deactivated, please try again after setting a post.",
+    "partnerTextQuest": "Are you sure you want to reset the partner article? `(yes/no)`",
+    "successReset": "You have successfully performed the reset request.",
+    "yetkiyok": "On a server, I do not have `{yetki}`. That's why I canceled the process.",
+    "thisYourServer": "You cannot partner with your own server.",
+    "statusActive": "You have successfully activated the partnership system.",
+    "statusAlreadyDeActive": ":x: Partnership status seems to be closed.",
+    "statusQuest": "Are you sure you want to shut down the affiliate system? `(yes/no)`\n**:exclamation: | Do you have a special invite code? This is bad! As soon as you turn off the system, your special invitation code will be reset.**",
+    "statusAlreadyActive": "The partnership system seems to be active.",
+    "partnerReseted": "You have successfully closed the partnership system.",
+    "notTaggedChannel": ":x: This command cannot be used without tagging a channel. Tag a channel and try again.",
+    "channelChanged[1]": "You have successfully set up the partner channel. (<#{kanal}>)",
+    "channelChanged[2]": "You have successfully set up the log channel. (<#{kanal}>)",
+    "resetAll?": "Are you sure you want to reset all set partner data? `(yes/no)`",
+    "datasDeleted": "All your partner data has been reset.",
+    "textWrite": "You have to adjust the settings to open the partner status.",
+    "statusActiveNotChange": "You cannot perform this action while the partner status is active.",
+    "durumDeaktif": "Your partner status is deactivated. That's why you can't buy a custom invite link.",
+    "gecersizSart": "Please enter a user limit.",
+    "sartAyarlandi": "The minimum number of users of servers that can send Partners is set to **{limit}**.",
+    "sartKapali": "The partnership limit is already closed, so this transaction has been canceled.",
+    "sartSoru": "Are you sure you want to close the partnership limit? `(yes / no)`",
+    "sartKapandi": "The partnership limit was successfully closed.",
+    "yetersizLimit": "That's too bad! The minimum user limit of this server is set to **{limit}**, so I couldn't send a partnership request.",
+    "fazlaRakam": "I canceled the operation because the user limit you entered is **greater than the number of users of this server**.",
+    
+
+    "kurulumTamamlandi": "Installation was done successfully by {author}.",
+    "sonradanDuzenle": "Use the `{p}partner` command to edit the information later.",
+    "textFull": "Click for the full article!",
+    "gecersizArgüman": "You entered an invalid argument.",
+    "taggRole": "Label a staff role.",
+    "writePartnerText": "Write a partner article.",
+    "tagPartnerChannel": "Tag a partner channel.",
+    "tagLogChannel": "Tag a partner log channel.",
+    "durumuAccanmi": "Would you like to open the partnership status? - `(yes/no)`",
+    "durumEvet": "yes",
+    "durumHayır": "no",
+    "kurulumYapilmiski": "Since the installation has been done before, it cannot be done again.",
+
+    "search": {
+      "members": "User",
+      "title": "Light Partner - Partner System",
+      "footer": "Servers with active partnership status are listed.",
+      "serverNotFound": ":pleading_face: This is very bad! There is no server you can partner with."
+    }
+  },
+  "quest": {
+    "commandCanceled": ":x: The command has been aborted.",
+    "timeout": ":x: The command timed out.",
+    "yes": "yes",
+    "no": "no"
+  },
+  "commands": {
+    "ayarlar": {
+      "name": "settings",
+      "desc": "It is used to change the server settings."
+    },
+    "istatistik": {
+      "name": "statistics",
+      "desc": "Shows the bot's statistics."
+    },
+    "partner": {
+      "name": "partner",
+      "desc": "Allows you to make partnership settings."
+    },
+    "partner-bul": {
+      "name": "find-partner",
+      "desc": "Lists the servers whose partnership status is open."
+    },
+    "günlük-ödül": {
+      "name": "daily-reward",
+      "desc": "You get your daily reward."
+    },
+    "pay": {
+      "name": "pay",
+      "desc": "You send a coin to a person."
+    },
+    "bal": {
+      "name": "account",
+      "desc": "Shows account information."
+    },
+    "bug-bildir": {
+        "name": "bug-report",
+        "desc": "You report the bug you found in the bot."
+    },
+    "top": {
+        "name": "top",
+        "desc": "You look at the top 10 people in the coin ranking."
+    },
+    "ekledim": {
+        "name": "added",
+        "desc": "Earn coins by adding the bot to your server."
+    },
+    "coinflip": {
+        "name": "coinflip",
+        "desc": "You flip a coin."
+    },
+    "kullanicibilgi": {
+        "name": "userinfo",
+        "desc": "You get information about the user."
+    },
+    "sunucubilgi": {
+        "name": "serverinfo",
+        "desc": "You get information about the server."
+    },
+    "ptb": {
+      "name": "ptb",
+      "desc": "It is a game where you can earn coins by doing the given task."
+    },
+    "snake": {
+      "name": "snake",
+      "desc": "Coin is a snake game where you can win coins."
+    },
+    "kurulum": {
+      "name": "install",
+      "desc": "It allows you to set up partner settings in a simple way."
+    }
+  },
+  "coin": {
+    "limit": "You can transfer up to 9999 coins!",
+    "gecersizMiktar": "The amount you want to trade is not valid!",
+    "günlük": {
+      "alindi": ":moneybag: **|** **{miktar}** has been added to your account.\n:timer: **|** You have to wait **{time}** to get the daily reward again.",
+      "suregecmeli": ":timer: **|** You have to wait **{time}** to get the daily reward again."
+    },
+    "gönderilecek": "You must specify the amount of coins you will transfer.",
+    "üyebelirt": "You must label the user to whom the coin will be transferred.",
+    "gönderdi": "The coin {gönderilcek} has been transferred to {user}.",
+    "auhorerr": "You cannot transfer coins to yourself.",
+    "boterr": "You cannot transfer coins to bot accounts.",
+    "sendeyok": "You do not have {gönderilecek} coins in your account."
+  },
+  "bugbildir": {
+  "belirt": "You must indicate the bug you will report!",
+  "bildirdi": "I successfully passed the bug to my **developer** team! \n If the bug is fixed, 25 coins will be added to your account."
+  },
+  "code": {
+    "args": {
+      "bozdur": "exchange"
+    },
+    "invalidArgs[0]": ":x: You must enter a code that I can exchange."
+  },
+  "coinflip": {
+    "args[0]": "You must enter a bet amount.",
+    "args[1]": "You must enter a valid bet amount.",
+    "args[2]": "You must enter a valid bet amount.",
+    "args[3]": "The amount of your bet must be a minimum of 3 and a maximum of 50.",
+    "args[4]": "You do not have **{coin}** coins in your account.",
+    "flipping": ":coin: **|** Coin flip...",
+    "youLost": ":x: **|** **{coin}** you lost coins**!**",
+    "nothing": ":white_circle: **|** You haven't won or lost anything**!**",
+    "youWon": ":white_check_mark: **|** **{coin}** you won coins, congratulations**!**"
+  },
+  "ekledim": {
+    "100ekle": "To use this command, you need to add me to **2 servers** with **100+ members**.\nNumber of servers you added; **{count}**",
+    "kullandin": "Thanks for adding me to 2 servers, **{coin}** amount of coins has been added to your account.",
+    "kullanmissin": "You can only use this command **1** time."
+  },
+  "sunucub": {
+  "swadı": "Server Name:",
+  "swsahib": "Server Owner:",
+  "swüye": "Member Count",
+  "kanal": "Channels Count:",
+  "ektahrih": "Date Added:",
+  "partner": "Total Number of Partnership:",
+  "premium": "Premium",
+  "presüre": "Premium Time",
+  "deactive": "DeActive",
+  "active": "Active"
+  },
+  "kullanıcıb": {
+  "kid": "User ID:",
+  "kadi": "Username:",
+  "ktag": "User Discriminator:",
+  "kacilis": "Account Opening Date",
+  "kekledigi": "Number ff Servers the Bot Adds",
+  "premium": "Premium",
+  "presüre": "Premium Time",
+  "deactive": "DeActive",
+  "active": "Active"
+  },
+  "premium": {
+    "writeCode": "You must enter a premium activation code.",
+    "invalidCode": "The activation code you entered is invalid.",
+    "premiumActive": "The Premium system is defined on the server **{serverName}**. And **1 month** premium user package defined to server owner.\n\n> • **Guild ID**: {serverID}\n> • **Premium Time**: 1 Ay\n> • **Guild Owner**: {ownerName}"
+  }
+}

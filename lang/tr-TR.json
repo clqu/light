@@ -1,0 +1,342 @@
+{
+  "$package": {
+    "flag": ":flag_tr:",
+    "name": "Türkçe"
+  },
+  "bal": {
+    "daily": "Günlük Ödül",
+    "none": "Yok",
+    "system": "Sistem",
+    "+": "``{coin}`` **|** ``{user}`` tarafından eklendi**!** *(Sebep: {reason})*",
+    "-": "``{coin}`` **|** ``{user}`` tarafından çıkarıldı**!** *(Sebep: {reason})*",
+    "bulunuyor": ":coin: Hesabınızda **{amount}** coin bulunuyor.",
+    "geçmiş": "> <:lpi:844336401389715516> Hesap Geçmişi:",
+    "geçmişyok": "> :x: Hesabınızın bir geçmişi bulunamadı.",
+    "promocode": "Promosyon Kodu",
+    "coinflip": "Yazı Tura",
+    "added": "Ekledim Komutu"
+  },
+  "noPerm": "> :x: **|** ``{x}`` komutunu kullanabilmek için ``{y} sahip olmanız gereklidir**!**",
+  "commandDisabled": "> :x: **|** ``{x}`` komutu geliştiriciler tarafından devre dışı bırakılmıştır**!**",
+  "yardim": {
+    "title": "Light Partner - Yardım",
+    "footer": "Sayfa {currentPage}/{maxPage}",
+    "delete": ":x: **|** Bu mesaj **5 saniye** sonra silinecek**!**",
+    "language": "> __Dil__ **»** :flag_tr: `Türkçe`",
+    "prefix": "> __Prefix__ **»** ``{prefix}``",
+    "loading": ":gear: **|** Emojiler yükleniyor**,** lütfen bekleyin**...**",
+    "noReq": "Herkes kullanabilir.",
+    "ileri": "İleri",
+    "geri": "Geri",
+    "sil": "💥ᅠSilᅠ💥",
+    "siliniyor": "Siliniyor"
+  },
+  "istatistik": {
+    "title": "Light Partner - İstatistik",
+    "dev": "Geliştirici Takımımız",
+    "totalPartner": "Toplam Partnerlik",
+    "generalDatas": "Genel Veriler",
+    "pingDatas": "Gecikme Verileri",
+    "softwareDatas": "Yazılım Bilgileri",
+    "uptime": "Uptime Süresi"
+  },
+  "bot": {
+    "header_error": "❌ Bir terslik var...",
+    "header_success": "✅ Mükemmel!",
+    "header_quest": "❔ Emin misin?",
+    "karaliste": "Karalisteye alındığın için komut kullanamassın.",
+    "bakim": "Bakım modu, bot geliştiricileri tarafından açık. Bakım modu açık iken komutlar kullanılamaz.",
+    "days": "gün",
+    "seconds": "saniye",
+    "min": "dakika",
+    "hour": "saat",
+    "links": "Bağlantılar;",
+    "davetMesaj": "> :wave: Merhaba, **{author}** bu komutu kullandığına sevindim, sakın beni davet etmeyi unutma sunucunu merak ediyorum :)",
+	"perm": "Yetki",
+	"perms": "ler",
+	"website": "Website",
+	"invite": "Davet Et",
+	"support": "Destek Sunucusu",
+    "unlimited": "Sınırsız",
+    "cooldown": "Bu komutu kullanmak için **{sure}** beklemelisin.\n`Bu mesaj silindiği anda komut kullanabilirsiniz.`",
+    "aylar": {
+      "ocak": "Ocak",
+      "subat": "Şubat",
+      "mart": "Mart",
+      "nisan": "Nisan",
+      "mayis": "Mayıs",
+      "haziran": "Haziran",
+      "temmuz": "Temmuz",
+      "agustos": "Ağustos",
+      "eylül": "Eylül",
+      "ekim": "Ekim",
+      "kasim": "Kasım",
+      "aralik": "Aralık"
+    }
+  },
+  "ayarlar": {
+    "args": {
+      "dil": "dil",
+      "prefix": "prefix"
+    },
+    "language": {
+      "selectLang": "Lütfen bir dil seçiniz.",
+      "activeLangs": "Mevcut Diller",
+      "success": "Sunucu dili, başarılı bir şekilde {language} olarak değiştirildi.",
+      "invalidLang": "Lütfen geçerli bir dil giriniz."
+    },
+    "hataFooter": "Kullanılan Dil: {language}",
+    "sifirla": "sıfırla",
+    "prefixgir": "Lütfen bir prefix belirtiniz.",
+    "prefixerr": "Sunucu prefixi, 5 ila 1 karakter uzunluğunda olabilir.",
+    "prefixayarlaonce": "Önce bir prefix ayarlamalısın.",
+    "prefixdegisti": "Başarıyla prefix değiştirildi.",
+    "prefixsifirlandi": "Başarıyla prefix sıfırlandı.",
+    "argss": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `dil` » Sunucunuzun dilini değiştirirsiniz.\n> • `prefix` » Sunucunuzun prefixini değiştirirsiniz."
+  },
+  "partner": {
+    "url": {
+      "urlbelirt": "Bir özel davet kodu belirtmelisin.\n`(Uzunluk; maksimum: 32, minimum: 3)`",
+      "quest": "**60** coin karşılığında `{url}` davet kodunu satın almak istediğinizden emin misiniz? `(evet/hayır)`\n**:exclamation: | Eski özel url kodunuz iptal edilip, yeni url kodunuz devreye girecektir.**",
+      "maxerr": "Maksimum 32 karakterlik bir davet kodu alabilirsin.",
+      "minerr": "Minimum 3 karakterlik bir davet kodu alabilirsin.",
+      "aldin": ":white_check_mark: Başarıyla `{url}` davet kodunu **{miktar}** coin karşılığında satın aldınız.\n:timer: Davet kodunuz **{time}** sonra sona ericek.\n:globe_with_meridians: Bağlantı; https://lightpartner.xyz/i/{url}",
+      "mevcut": "Almaya çalıştığın **{url}** davet kodu başka bir sunucu tarafından kullanılıyor.",
+      "yetersizBakiye": "Hesabınızda yeterli coin bulunmuyor.",
+      "invalid": "Özel URL sadece ingiliz harflerini içerebilir!"
+    },
+    "info": {
+      "notFound": "Ayarlanmamış.",
+      "staff": "Sorumlu",
+      "log": "Log",
+      "channel": "Kanal",
+      "text": "Yazı",
+      "status": "Durum",
+      "active": "Aktif",
+      "deactive": "Kapalı",
+      "url": "Davet Kodu",
+      "urlSüre": "Davet Kodu Süresi"
+    },
+    "args": {
+      "authorizationRole": "sorumlu",
+      "set": "ayarla",
+      "status": "durum",
+      "info": "bilgi",
+      "close": "kapat",
+      "open": "aç",
+      "channel": "kanal",
+      "reset": "sıfırla",
+      "postPartner": "ol",
+      "partnerLimit": "limit"
+    },
+    "limited": "Partner yazısı minumum 1, maksimum 1950 karakter olabilir!",
+    "invalidArgs[1]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `sorumlu` » Partnerlik isteklerini kabul/reddedecek **yetkili** rolünü ayarlarsınız.\n> • `text` » Partnerlik yazınızı ayarlarsınız.\n> • `durum` » Partnerlik isteklerinizi açar/kapatır.\n> • `sıfırla` » Partnerlik verilerinizi silersiniz.\n> • `kanal` » Partner kanal ve partner log kanallarını ayarlarsınız.\n> • `ol` » İstediğiniz sunucunun kodunu girerek partnerlik isteği gönderirsiniz.\n> • `url` » Sunucunuz için özel url alırsınız.\n> • `limit` » Partnerlik isteği gönderecek sunucunun kullanıcı limitidir.",
+    "invalidArgs[2]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `ayarla` » Partnerlik isteklerini onaylayacak kullanıcı rolüdür.\n> • `sıfırla` » Ayarladığınız partner sorumlusu rolünü sıfırlar.",
+    "invalidArgs[3]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `ayarla` » Partner yazınızı ayarlarsınız.\n> • `sıfırla` » Partner yazınızı sıfırlarsınız.",
+    "invalidArgs[4]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `aç` » Partner durumunu açarsınız.\n> • `kapat` » Partner durumunu kapatırsınız.",
+    "invalidArgs[5]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `log` » Partner yaparken log düşecek kanalı ayarlarsınız.\n> • `partner` » Partnerlik yapılacak kanaldır.",
+    "invalidArgs[6]": "> Bir partner kodu girmedin, bu komut partner kodu girmeden kullanılamaz.\n**Komut örneği** » `{prefix}partner ol <davet_kodu>`",
+    "invalidArgs[7]": "> Bir argüman girmedin, argüman girmeden bu komut kullanılamaz.\n\n> **• Argümanlar;**\n> • `aç [limit]` » Partner limitinizi açarsınız.\n> • `kapat` » Partner limitinizi kapatırsınız.",
+    "tagRole": "> Bu komut, rol etiketlemeden gerçekleştirilemez. Bir rol etiketlemeye ne dersin?",
+    "partnerurlyanlis": "> Girdiğiniz partner koduna ait bir sunucu bulunamadı. Tekrar deneyin veya kodu kontrol edin.",
+    "partnerGönderildi": "> Partner isteği başarılı bir şekilde gönderildi. Lütfen bir yetkili kontrol edene kadar bekleyin.",
+    "partnerGonderilmis": "> Bu sunucuda aktif bir partner isteğiniz zaten mevcut.",
+    "kanaliKapali": "Partner isteğinde bulunduğunuz sunucunun ayarlanılan partner kanalına mesaj yazamıyorum. Bu yüzden işlemi iptal ettim.",
+    "kanalKapali": "Bu sunucuda ayarlanan partner kanalına mesaj gönderemiyorum. Bu yüzden işlemi iptal ettim.",
+    "partneroldu": "`{name}` isimli `{memberCount}` üyeye sahip sunucu ile partnerlik başarıyla **gerçekleştirildi.** `Onaylayan Yetkili: {yetkili}`",
+    "partnerolmadi": "`{name}` isimli `{memberCount}` üyeye sahip sunucu ile partnerlik **gerçekleştirilemedi.** `Reddeden Yetkili: {yetkili}`",
+    "partnerMesaj": "`{sunucuAdi}` sunucusu sizinle partner olmak istiyor.\n\n> » Davet Kodu: `{inviteCode}`\n> » Sunucu Sahibi: `{sahip}`\n> » Yetkili: `{yetkili}`\n> » Kullanıcı Sayısı: `{memberCount}`\n> » Davet Bağlantısı: [lightpartner.xyz/i/{inviteCode}](https://lightpartner.xyz/i/{inviteCode})\n> » Sunucunun Oluşturulma Tarihi: `{opendate}`\n> » Sunucunun Toplam Partnerliği: `{partnerCount}`",
+    "staffRoleSaved": "Partner sorumlusu rolü başarıyla ayarlandı.",
+    "staffRoleError[1]": ":x: Sorumlu rolü zaten deaktif durumda, lütfen rol ayarladıktan sonra tekrar deneyiniz.",
+    "staffRoleQuest[1]": "Sorumlu rolünü sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
+    "staffRoleReseted": "Sıfırlama isteği başarılı bir şekilde gerçekleştirildi.",
+    "textChanged": "Partner yazısını başarılı bir şekilde ayarladınız.\n\nÖnizleme:```{text}```",
+    "writeText": ":x: Bu komutu gerçekleştirebilmek için, bir yazı girmelisiniz.",
+    "textDeActive": ":x: Partner yazısı deaktif durumdaymış gibi gözüküyor, lütfen bir yazı ayarladıktan sonra tekrar deneyiniz.",
+    "partnerTextQuest": "Partner yazısını sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
+    "successReset": "Sıfırlama isteğini başarılı bir şekilde gerçekleştirdiniz.",
+    "yetkiyok": "Bir sunucuda, {yetki} sahip değilim. Bu yüzden işlemi iptal ettim.",
+    "thisYourServer": "Kendi sunucunuz ile partner olamazsınız.",
+    "statusActive": "Partnerlik sistemini başarılı bir şekilde aktif hale getirdiniz.",
+    "statusAlreadyDeActive": ":x: Partner durumu kapalı durumdaymış gibi gözüküyor.",
+    "statusQuest": "Partnerlik sistemini kapatmak istediğinizden emin misiniz? `(evet/hayır)`\n**:exclamation: | Özel davet kodunuz mu var? Bu kötü! Sistemi kapattığınız anda özel davet kodunuz sıfırlanacaktır.**",
+    "statusAlreadyActive": "Partnerlik sistemi aktif durumdaymış gibi gözüküyor.",
+    "partnerReseted": "Partnerlik sistemini başarılı bir şekilde kapattınız..",
+    "notTaggedChannel": ":x: Bu komut, bir kanal etiketlemeden kullanılamaz. Bir kanal etiketleyin ve tekrar deneyin.",
+    "channelChanged[1]": "Partner kanalını başarılı bir şekilde ayarladınız. (<#{kanal}>)",
+    "channelChanged[2]": "Log kanalını başarılı bir şekilde ayarladınız. (<#{kanal}>)",
+    "resetAll?": "Ayarlanmış olan tüm partner datalarını sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
+    "datasDeleted": "Tüm partner verileriniz sıfırlandı.",
+    "textWrite": "Partner durumunu açmak için ayarları yapmalısın.",
+    "statusActiveNotChange": "Partner durumu aktifken bu işlemi gerçekleştiremezsiniz.",
+    "durumDeaktif": "Partner durumunuz deaktif. Bu yüzden özel bir davet bağlantısı satın alamazsınız.",
+    "gecersizSart": "Lütfen bir kullanıcı limiti giriniz.",
+    "sartAyarlandi": "Partnerlik gönderebilecek sunucuların minimum kullanıcı sayısı **{limit}** olarak ayarlandı.",
+    "sartKapali": "Partnerlik limit zaten kapalı durumda bu yüzden bu işlem iptal edildi.",
+    "sartSoru": "Partnerlik limitini kapatmak istediğinizden emin misiniz? `(evet/hayır)`",
+    "sartKapandi": "Partnerlik limiti başarıyla kapatıldı.",
+
+    "kurulumTamamlandi": "Kurulum {author} tarafından başarıyla tamamlandı.",
+    "sonradanDuzenle": "Bilgileri sonradan düzenlemek için `{p}partner` komudunu kullanın.",
+    "textFull": "Yazının tam hali için tıkla!",
+    "gecersizArgüman": "Geçersiz bir argüman girdiniz.",
+    "taggRole": "Bir sorumlu rolü etiketleyiniz.",
+    "writePartnerText": "Bir partner yazısı yazın.",
+    "tagPartnerChannel": "Bir partner kanalı etiketleyin.",
+    "tagLogChannel": "Bir log kanalı etiketleyin.",
+    "durumuAccanmi": "Partnerlik durumunu açmak ister misiniz? - `(evet/hayır)`",
+    "durumEvet": "evet",
+    "durumHayır": "hayır",
+    "aMinute": "Bir dakikadan az.",
+    "kurulumYapilmiski": "Kurulum daha önceden yapıldığı için tekrar yapılamaz.",
+
+    "yetersizLimit": "Bu çok kötü! Bu sunucunun minimum kullanıcı limiti **{limit}** olarak ayarlı, bu yüzden partnerlik isteği gönderemedim.",
+    "fazlaRakam": "Girdiğiniz kullanıcı limiti **bu sunucunun kullanıcı sayısından büyük** olduğu için işlemi iptal ettim.",
+    "search": {
+      "members": "Kullanıcı",
+      "title": "Light Partner - Partnerlik Sistemi",
+      "footer": "Partnerlik durumu aktif olan sunucular listeleniyor.",
+      "serverNotFound": ":pleading_face: Bu çok kötü! Partnerlik yapabileceğiniz bir sunucu bulunmuyor."
+    }
+  },
+  "quest": {
+    "commandCanceled": ":x: Komut iptal edildi.",
+    "timeout": ":x: Komut zaman aşımına uğradı.",
+    "yes": "evet",
+    "no": "hayır"
+  },
+  "commands": {
+    "ayarlar": {
+      "name": "ayarlar",
+      "desc": "Sunucu ayarlarını değiştirmenize yarar."
+    },
+    "istatistik": {
+      "name": "istatistik",
+      "desc": "Botun istatistiğini gösterir."
+    },
+    "partner": {
+      "name": "partner",
+      "desc": "Partnerlik ayarlarını yapmanızı sağlar."
+    },
+    "partner-bul": {
+      "name": "partner-bul",
+      "desc": "Partnerlik durumu açık olan sunucuları listeler."
+    },
+    "günlük-ödül": {
+      "name": "günlük-ödül",
+      "desc": "Günlük ödülünüzü alırsınız."
+    },
+    "pay": {
+      "name": "pay",
+      "desc": "Bir kişiye coin gönderirsiniz."
+    },
+    "bal": {
+      "name": "hesap",
+      "desc": "Hesap bilgilerinizi gösterir."
+    },
+    "bug-bildir": {
+        "name": "bug-bildir",
+        "desc": "Botta bulduğunuz bug'u bildirirsiniz."
+    },
+    "top": {
+        "name": "top",
+        "desc": "Coin sıralamasında ilk 10 kişiye bakarsınız."
+    },
+    "ekledim": {
+        "name": "ekledim",
+        "desc": "Botu sunucunuza ekleyerek coin kazanın."
+    },
+    "coinflip": {
+        "name": "coinflip",
+        "desc": "Yazı tura atarsınız."
+    },
+    "kullanicibilgi": {
+        "name": "kullanıcıbilgi",
+        "desc": "Kullanıcı hakkında bilgi alırsınız."
+    },
+    "sunucubilgi": {
+        "name": "sunucubilgi",
+        "desc": "Sunucu hakkında bilgi alırsınız."
+    },
+    "ptb": {
+      "name": "ptb",
+      "desc": "Verilen görevi yaparak coin kazanabileceğiniz oyundur."
+    },
+    "snake": {
+      "name": "snake",
+      "desc": "Coin kazanabileceğiniz yılan oyunudur."
+    },
+    "kurulum": {
+        "name": "kurulum",
+        "desc": "Daha basit bir şekilde partner ayarlarını yapmanızı sağlar."
+    }
+  },
+  "coin": {
+    "limit": "Maksimum 9999 coin transfer yapabilirsiniz!",
+    "gecersizMiktar": "İşlem yapmak istediğiniz miktar geçerli değil!",
+    "günlük": {
+      "alindi": ":moneybag: **|** Hesabınıza **{miktar}** coin başarıyla eklendi.\n:timer: **|** Tekrar günlük ödül almak için **{time}** beklemelisin.",
+      "suregecmeli": ":timer: **|** Tekrar günlük ödül almak için **{time}** beklemelisin."
+    },
+    "gönderilecek": "Transfer edeceğiniz coin miktarını belirtmelisiniz.",
+    "üyebelirt": "Coin transfer edilecek kullanıcıyı etiketlemelisiniz.",
+    "gönderdi": "{user} adlı kullanıcıya {gönderilcek} coin transfer edildi.",
+    "auhorerr": "Kendinize coin transfer edemezsiniz.",
+    "boterr": "Bot hesaplara coin transfer edemezsiniz.",
+    "sendeyok": "Hesabınızda {gönderilcek} coin bulunmuyor."
+  },
+  "bugbildir": {
+  "belirt": "Bildireceğin bug'u belirtmelisin!",
+  "bildirdi": "Başarıyla bugu **Geliştirici** ekibime ilettim! \n Eğer bug düzeltilirse hesabınıza 25 coin eklenecektir."
+  },
+  "code": {
+    "args": {
+      "bozdur": "bozdur"
+    },
+    "invalidArgs[0]": ":x: Bozdurabileceğim bir kod girmelisin."
+  },
+  "coinflip": {
+    "args[0]": "Bir bahis miktarı girmelisin.",
+    "args[1]": "Geçerli bir bahis miktarı girmelisin.",
+    "args[2]": "Geçerli bir bahis miktarı girmelisin.",
+    "args[3]": "Bahsinizin miktarı minimum 3 maksimum 50 olmalıdır.",
+    "args[4]": "Hesabınızda **{coin}** coin bulunmuyor.",
+    "flipping": ":coin: **|** Yazı tura atılıyor...",
+    "youLost": ":x: **|** **{coin}** coin kaybettin**!**",
+    "nothing": ":white_circle: **|** Hiçbir şey kazanmadın veya kaybetmedin**!**",
+    "youWon": ":white_check_mark: **|** **{coin}** coin kazandın, tebrikler**!**"
+  },
+  "ekledim": {
+    "100ekle": "Bu komutu kullanmak için beni **100+** üyesi bulunan **2 sunucuya** eklemelisin.\nSenin eklediğin sunucusu sayısı; **{count}**",
+    "kullandin": "Beni 2 sunucuya eklediğin için teşekkürler, hesabına **{coin}** miktar coin eklendi.",
+    "kullanmissin": "Bu komutu yalnızca **1** defa kullanabilirsin."
+  },
+  "sunucub": {
+  "swadı": "Sunucu Adı:",
+  "swsahib": "Sunucu Sahibi:",
+  "swüye": "Sunucuda Bulunan Üye Sayısı",
+  "kanal": "Kanal Sayısı:",
+  "ektahrih": "Eklenme Tarihim:",
+  "partner": "Toplam Partner Sayısı:",
+  "premium": "Premium",
+  "presüre": "Premium Süresi",
+  "deactive": "DeAktif",
+  "active": "Aktif"
+  },
+  "kullanıcıb": {
+  "kid": "Kullanıcı ID:",
+  "kadi": "Kullanıcı Adı:",
+  "ktag": "Kullanıcı Etiketi:",
+  "kacilis": "Hesap Açılış Tarihi",
+  "kekledigi": "Botu Eklediği Sunucu Sayısı",
+  "premium": "Premium",
+  "presüre": "Premium Süresi",
+  "deactive": "DeAktif",
+  "active": "Aktif"
+  },
+  "premium": {
+    "writeCode": "Bir premium aktivasyon kodu girmelisin.",
+    "invalidCode": "Girdiğin aktivasyon kodu geçersiz.",
+    "premiumActive": "Premimum sistemi **{serverName}** sunucusuna tanımlandı. Ve sunucu sahibine **1 aylık** premium kullanıcı pakedi tanımlandı.\n\n> • **Sunucu ID**: {serverID}\n> • **Premium Süresi**: 1 Ay\n> • **Sunucu Sahibi**: {ownerName}"
+  }
+}
