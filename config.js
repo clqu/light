@@ -2,7 +2,7 @@ module.exports = {
   token: ""
   prefix: '!',
   developers: [ "451444721089380373", "714451348212678658", "852606013126606908" ],
-  mongourl: "",
+  mongourl: "mongodb+srv://partner:lightpartner.kahrolsundarkpartner@cluster0.hppwm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   links: {
     support: "https://discord.gg/C4t6dkhBYN"
   },
