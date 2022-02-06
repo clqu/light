@@ -37,6 +37,16 @@ client.locale = lang => {
 /*=======================================================================================*/
 
 /**
+ * API'yi çalıştırır.
+ */
+require('./$_API/server.js')(
+  Discord,
+  client
+);
+
+/*=======================================================================================*/
+
+/**
  * @params {Array} names
  */
 function loadUtils(names) {
@@ -183,6 +193,61 @@ const times = require('./database/models/pre.js')
 /*=======================================================================================*/
 
 /**
+ * Easter Egg Messages
+ */
+client.on("message", message => {
+  // ÇöpPartner'e Gönderme
+  let engelliNames = [ 'bilaltim', 'bilaltım', 'bilaltm' ]
+  if (engelliNames.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.react("♿");
+  };
+  // 31 SJSJ
+  if (message.content == "31") {
+    message.inlineReply("Ne komik şeysin lan sen öyle :)")
+  };
+  // Lord of the Rings'e Gönderme
+  let lotr = [ 'mellon', 'mellonn', 'mellonnn' ];
+  if (lotr.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.react("🧝");
+  };
+  
+  // HP'ye Gönderme
+  let hp = [ 'leviosa', 'wingardium' ];
+  if(message.content === "sunday") {
+    message.inlineReply("> No mail on Sundays.")
+  };
+  if(message.content === "eyes") {
+    message.inlineReply("> You have your mother's eyes.")
+  }
+  if(message.content === "friends") {
+    message.inlineReply("> What a lovely place to be with friends!")
+  };
+  if (hp.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.react("🪶");
+  };
+  
+  // V'e Gönderme
+  let v = [ "why won't you die", "why wont you die" ];
+  if (v.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.inlineReply('> Beneath this mask there is more than flesh. Beneath this mask there is an idea, Mr. ' + message.author.username + ', and ideas are bulletproof.')
+  };
+  
+  // Terminatör'e Gönderme
+  let terminator = [ 'terminatör', 'terminator' ];
+  if (terminator.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.react("👍");
+  };
+  
+  // Atatürk
+  let atatürk = [ '1938', '1881', 'atam', 'atatürk', 'mka', 'm.k.a' ];
+  if (atatürk.some(a => message.content.toLowerCase().includes(a.toLowerCase()))) {
+    message.react("♾️");
+  };
+});
+
+/*=======================================================================================*/
+
+/**
  * Server Join/Leave Datas
  */
 const webhook = new Discord.WebhookClient("841769902322614293","oPugzkSD3Gb2BYFmXJ84quBZpkDKvBIRiuLFRknOAGc8wTmu_rP0oA0xfjWP4ajMCEQ4");
@@ -261,14 +326,13 @@ resetStats.start();
  */
  const ppdata = require("./database/models/partner-ol.js");
  const pdata = require("./database/models/server.js");
- const botdatabase = require("./database/models/bot.js");
  let cData = require("./database/models/coin.js");
  let cGecmis = require("./database/models/coin-geçmişi.js");
 client.on("clickButton", async (button) => {
   button.defer();
   let findServer = await ppdata.findOne({ message: button.message.id });
   if(!findServer) return;
-  console.log(button.id)
+  if(button.clicker.user.bot) return;
   let serverOne = client.guilds.cache.get(findServer.guildID);
   let serverTwo = client.guilds.cache.get(findServer.karsiSunucu);
   let serverDataOne = await pdata.findOne({ guildID: findServer.guildID });
@@ -314,12 +378,8 @@ client.on("clickButton", async (button) => {
     }
     await cData.findOneAndUpdate({userID: findServer.author }, {$inc: {amount: 3 }}, { upsert: true })
     await cData.findOneAndUpdate({userID: button.clicker.user.id }, {$inc: {amount: 3 }}, { upsert: true })
-
     await pdata.findOneAndUpdate({guildID: serverDataOne.guildID }, {$inc: { partner_partnerCount: 1 }}, { upsert: true })
     await pdata.findOneAndUpdate({guildID: serverDataTwo.guildID }, {$inc: { partner_partnerCount: 1 }}, { upsert: true })
-
-    await botdatabase.findOneAndUpdate({ botID: "789918433495875584" }, {$inc: { partnerCount: 4 }}, { upsert: true })
-
     await cGecmis.findOneAndUpdate({userID: button.clicker.user.id }, {$push: {gecmis: { count: 3, user: "{system}", reason: 'Partner', Date: Date.now() } }}, { upsert: true});          
     await cGecmis.findOneAndUpdate({userID: findServer.author }, {$push: {gecmis: { count: 3, user: "{system}", reason: 'Partner', Date: Date.now() } }}, { upsert: true});          
     client.channels.cache.get(serverDataTwo.partner_log).messages.fetch(button.message.id).then(message => message.delete())
